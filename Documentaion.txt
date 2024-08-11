@@ -1,0 +1,47 @@
+Documenting the Solution
+1. Purpose
+XSL Stylesheet (table.xsl):
+The XSL stylesheet (table.xsl) is used to convert XML data into a user-friendly HTML format. It helps display patient details in a table format with headers such as Patient ID, Name, Age, Gender, Blood Group, Admission Date, Disease, and Room Number. This makes the data easy to read and view on a website.
+
+XML Schema Definition (hospital.xsd):
+The XML Schema Definition (hospital.xsd) outlines the structure and rules for the XML data. It ensures that the XML file follows the correct format and constraints, such as valid numeric values and specific data types, to maintain the accuracy and consistency of the data.
+
+Document Type Definition (hospital.dtd):
+The DTD (hospital.dtd) specifies the rules for the XML file, including the elements and their structure. It ensures that the XML data follows the predefined format, including patient information and report sections.
+
+XML File (hospital.xml):
+The XML file (hospital.xml) contains the actual data about patients and routes. It uses the XSL stylesheet for transformation and follows the rules set in the XSD and DTD for validation.
+
+2. XSL Stylesheet (table.xsl)
+The XSL stylesheet is used to transform XML data into HTML. It formats the XML data into a structured HTML table, making it easier to read and display on a website.
+
+3. XML Schema Definition (hospital.xsd)
+The XML Schema Definition defines the rules for the XML file, such as the structure of elements, data types, and constraints. It ensures the XML data meets the specified format and rules.
+
+4. Document Type Definition (hospital.dtd)
+The DTD specifies the allowed structure and content for the XML file. It defines the elements and their organization to ensure the XML data follows a consistent format.
+
+5. XML File (hospital.xml)
+The XML file contains patient and route data. It is transformed into HTML using the XSL stylesheet and validated against the XSD and DTD to ensure it meets the required format and rules.
+
+6. Transformation and Validation Process
+Transformation:
+
+Tool Used: XSLT Processor (e.g., Saxon, Xalan, or browser-based XSLT processor)
+Method: Apply the XSLT stylesheet to the XML file to generate HTML output.
+Validation:
+
+Tool Used: XML Validator (e.g., Xerces, Oxygen XML Editor, or online validators)
+Method: Validate the XML file against the XSD schema to ensure it follows the defined rules.
+7. Summary Report
+Transformation Process:
+
+The XML data is converted into HTML using the XSL stylesheet.
+The HTML output displays patient information in a readable table format.
+Validation Process:
+
+The XML file is checked against the XML Schema Definition.
+The data must conform to the rules specified in the schema, including correct element types and value ranges.
+Errors/Issues Encountered:
+
+Any issues with data types or format constraints will be highlighted during validation.
